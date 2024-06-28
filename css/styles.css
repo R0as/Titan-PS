@@ -1,0 +1,54 @@
+/* arquivo de estilização do projeto */
+* {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    padding-right: 50px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+th {
+    padding: 8px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #ccc;
+}
+
+form {
+    padding-bottom: 20px;
+}
